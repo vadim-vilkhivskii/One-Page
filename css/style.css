@@ -407,3 +407,17 @@
     width: 100%;
     bottom: 60px;
 }
+.owl-dots .owl-dot.active span{
+    background-color: white;
+    width: 11px;
+    height: 11px;
+    position: relative;
+    bottom: -3px;
+}
+.link-sponsors{
+    padding: 68px 0;
+}
+.link-sponsors__flex{
+    display: flex;
+    justify-content: space-between;
+}
