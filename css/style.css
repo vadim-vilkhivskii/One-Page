@@ -68,6 +68,7 @@
     display: flex;
 }
 
+
 .header__menu li {
     font-family: 'Montserrat-Medium';
     font-size: 0.75rem;
@@ -281,6 +282,15 @@
     background: rgba(0, 0, 0, 0.9);
     cursor: pointer;
 }
+.work__block:hover:after{
+    display: block;
+    font-family: 'Pe-icon-7-stroke';
+    content: "\e63e";
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+}
 
 .bg-gray {
     background-color: #dddddd;
@@ -446,15 +456,18 @@
     font-size: 1rem;
     margin-bottom: 2.4375rem;
 }
-.block-form__cont{
-   max-width: 42rem;
+
+.block-form__cont {
+    max-width: 42rem;
     margin: auto;
 }
+
 .block-form__cont form div {
     display: flex;
     justify-content: space-between;
 }
-.block-form__input{
+
+.block-form__input {
     font-family: 'Nunito Sans-Regular';
     font-size: 0.9375rem;
     width: 20rem;
@@ -465,7 +478,8 @@
     padding: 0 1.25rem;
     box-sizing: border-box;
 }
-.block-form__input-title{
+
+.block-form__input-title {
     font-family: 'Nunito Sans-Regular';
     font-size: 0.9375rem;
     width: 100%;
@@ -475,6 +489,7 @@
     padding: 0 1.25rem;
     box-sizing: border-box;
 }
+
 .block-form__textarea {
     font-family: 'Nunito Sans-Regular';
     font-size: 0.9375rem;
@@ -486,7 +501,8 @@
     box-sizing: border-box;
     margin-bottom: 1.875rem;
 }
-.block-form__button{
+
+.block-form__button {
     font-family: 'Montserrat-Medium';
     text-transform: uppercase;
     color: white;
@@ -495,4 +511,68 @@
     width: 11.25rem;
     height: 3.375rem;
     border: none;
+}
+
+.footer {
+    background-color: #141414;
+    padding: 6.25rem 0;
+}
+
+.footer__trademark p {
+    font-family: 'Nunito Sans-Regular';
+    font-size: 0.9375rem;
+    color: white;
+    margin-top: 1.75rem;
+}
+
+.footer__trademark span {
+    font-family: 'Montserrat-Medium';
+    font-size: 1.125rem;
+    color: #bcbcbc;
+}
+
+.footer__contacts p {
+    font-family: 'Nunito Sans-Regular';
+    font-size: 0.9375rem;
+    color: #bcbcbc;
+}
+
+.footer__links {
+    font-family: 'Nunito Sans-Regular';
+    font-size: 0.9375rem;
+    list-style-type: none;
+}
+.footer__links li{
+    margin-bottom: 0.625rem;
+}
+.footer__links li a {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.owl-prev:after {
+    font-family: 'Pe-icon-7-stroke';
+    display: block;
+    content: "\e6a2";
+    color: white;
+    font-size: 3.125rem;
+    position: absolute;
+    top:50%;
+    left: 0;
+}
+
+.owl-next:after {
+    font-family: 'Pe-icon-7-stroke';
+    display: block;
+    content: "\e699";
+    color: white;
+    font-size: 3.125rem;
+    position: absolute;
+    top:50%;
+    right: 0;
 }
